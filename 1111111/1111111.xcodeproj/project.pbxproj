@@ -12,6 +12,7 @@
 		C2442A8F1B7E333A00E3712D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2442A8E1B7E333A00E3712D /* Images.xcassets */; };
 		C2442A921B7E333A00E3712D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2442A901B7E333A00E3712D /* LaunchScreen.xib */; };
 		C2442A9E1B7E333A00E3712D /* _111111Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2442A9D1B7E333A00E3712D /* _111111Tests.m */; };
+		C2442AA91B7E335700E3712D /* UIButton+uibsabsl.m in Sources */ = {isa = PBXBuildFile; fileRef = C2442AA81B7E335700E3712D /* UIButton+uibsabsl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		C2442A971B7E333A00E3712D /* 1111111Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 1111111Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2442A9C1B7E333A00E3712D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2442A9D1B7E333A00E3712D /* _111111Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _111111Tests.m; sourceTree = "<group>"; };
+		C2442AA71B7E335700E3712D /* UIButton+uibsabsl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+uibsabsl.h"; sourceTree = "<group>"; };
+		C2442AA81B7E335700E3712D /* UIButton+uibsabsl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+uibsabsl.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 			children = (
 				C2442A8B1B7E333A00E3712D /* AppDelegate.h */,
 				C2442A8C1B7E333A00E3712D /* AppDelegate.m */,
+				C2442AA71B7E335700E3712D /* UIButton+uibsabsl.h */,
+				C2442AA81B7E335700E3712D /* UIButton+uibsabsl.m */,
 				C2442A8E1B7E333A00E3712D /* Images.xcassets */,
 				C2442A901B7E333A00E3712D /* LaunchScreen.xib */,
 				C2442A871B7E333A00E3712D /* Supporting Files */,
@@ -212,6 +217,7 @@
 			files = (
 				C2442A8D1B7E333A00E3712D /* AppDelegate.m in Sources */,
 				C2442A8A1B7E333A00E3712D /* main.m in Sources */,
+				C2442AA91B7E335700E3712D /* UIButton+uibsabsl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
